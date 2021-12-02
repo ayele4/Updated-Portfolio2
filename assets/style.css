@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Color Palette */
+:root {
+    --primary-color: #00F3FF;
+    --secondary-color: #3F4647;
+    --secondary-opacity: rgb(0,0,0, 0.55);
+    --tertiary-color: rgb(0, 135, 245);
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+}
+
+/* Header Begins */
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../assets/images/hero.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgb(0, 243, 255, .5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+    padding-right: 33px;
+}
